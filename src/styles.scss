@@ -7,12 +7,17 @@ $secondaryPurple: rgb(199, 191, 230);
     align-items: center;
     text-align: center;
     display: block;
+    padding: 75px;
     height: 100vh;
     background-color: #7f53ac;
     background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     img {
         border-radius: 15px;
-    }    
+    }  
+    h1,
+    h2{
+        font-family: 'Caveat', cursive;
+    }  
 }
 
 body {
