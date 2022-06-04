@@ -34,6 +34,7 @@ body {
   margin-top: 67px;
   text-align: center;
   font-family: 'Caveat', cursive;
+  font-size: 52px;
 }
 
 .image-grid figure {
@@ -52,6 +53,11 @@ body {
 
 .image-grid a:hover img {
   border: 4px solid #341ada;
+}
+
+figcaption {
+  margin-top: 5px;
+  text-align: center;
 }
 
 /* LIGHTBOX STYLES
@@ -109,5 +115,9 @@ body {
 
 .lightbox-modal .carousel-control-next {
   right: 10px;
+}
+
+.site-describe {
+  margin: 18px;
 }
 /*# sourceMappingURL=styles.css.map */
