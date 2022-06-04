@@ -1,5 +1,6 @@
 $primaryPurple: #341ada;
 $secondaryPurple: rgb(199, 191, 230);
+$lightbox: #242424;
 
 .hero {
     display: flex;
@@ -21,10 +22,78 @@ $secondaryPurple: rgb(199, 191, 230);
 
 body {
     background-color: $secondaryPurple;
+    margin: 24px 0 48px;
 }
 
 .head {
-    margin-top: 67px;
+    margin-top: 67px    ;
     text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+.image-grid figure {
+    margin-bottom: 0;
+}
+
+.image-grid img {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s;
+    border-radius: 6px;
+}
+
+.image-grid a:hover img {
+    border: 4px solid $primaryPurple;
+}
+
+/* LIGHTBOX STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.lightbox-modal .modal-content {
+    background: $lightbox;
+}
+
+.lightbox-modal .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.lightbox-modal .modal-body {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+}
+
+.lightbox-modal img {
+    width: auto;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+.lightbox-modal .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(36, 36, 36, 0.75);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.lightbox-modal .carousel-control-prev,
+.lightbox-modal .carousel-control-next {
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    width: auto;
+}
+
+.lightbox-modal .carousel-control-prev {
+    left: 10px;
+}
+
+.lightbox-modal .carousel-control-next {
+    right: 10px;
 }
 
