@@ -14,7 +14,8 @@
   padding: 75px;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(110.6deg, #b88efc 2.2%, #6877f4 100.2%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(2.2%, #b88efc), color-stop(100.2%, #6877f4));
+  background: linear-gradient(90deg, #b88efc 2.2%, #6877f4 100.2%);
 }
 
 .hero img {
