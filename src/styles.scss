@@ -13,17 +13,25 @@ $lightbox: #242424;
     background: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     img {
         border-radius: 15px;
+        box-shadow: 10px 10px 5px $primaryPurple;
+        margin-bottom: 10px;
     }  
+    h1{
+        font-size: 50px;
+    }
     h1,
     h2{
-        font-family: 'Caveat', cursive;
+        font-family: 'Caveat', cursive;        
+        font-weight: bolder;
     }  
+     
 }
 
 body {
     background-color: $secondaryPurple;
     margin: 24px 0 48px;
 }
+
 
 .head {
     margin-top: 67px    ;

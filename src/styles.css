@@ -18,11 +18,19 @@
 
 .hero img {
   border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 5px #341ada;
+          box-shadow: 10px 10px 5px #341ada;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 50px;
 }
 
 .hero h1,
 .hero h2 {
   font-family: 'Caveat', cursive;
+  font-weight: bolder;
 }
 
 body {
@@ -36,6 +44,7 @@ body {
   font-family: 'Caveat', cursive;
   font-size: 52px;
   color: #341ada;
+  font-weight: bolder;
 }
 
 .image-grid figure {
