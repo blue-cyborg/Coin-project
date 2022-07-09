@@ -13,7 +13,8 @@
   display: block;
   padding: 75px;
   height: 100vh;
-  background: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  margin: 0;
+  background: linear-gradient(110.6deg, #b88efc 2.2%, #6877f4 100.2%);
 }
 
 .hero img {
@@ -44,7 +45,6 @@ body {
   font-family: 'Caveat', cursive;
   font-size: 52px;
   color: #341ada;
-  font-weight: bolder;
 }
 
 .image-grid figure {

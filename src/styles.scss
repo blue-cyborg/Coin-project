@@ -10,7 +10,8 @@ $lightbox: #242424;
     display: block;
     padding: 75px;
     height: 100vh;
-    background: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    margin: 0;
+    background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
     img {
         border-radius: 15px;
         box-shadow: 10px 10px 5px $primaryPurple;
@@ -24,7 +25,6 @@ $lightbox: #242424;
         font-family: 'Caveat', cursive;        
         font-weight: bolder;
     }  
-     
 }
 
 body {
